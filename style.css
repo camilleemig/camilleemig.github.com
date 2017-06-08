@@ -28,6 +28,12 @@
   flex-grow: 1;
 }
 
+.flex-item-life {
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
 .name {
     margin-bottom: 0;
     font-size: 48px;
