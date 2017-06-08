@@ -1,0 +1,72 @@
+@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background-color: #1A2121;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 250px;
+  margin-top: 10px;
+  margin-right: 5px;
+  font-size: 20px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.name {
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: normal;
+    color: #71B09F;
+}
+.intro {
+  margin-top: 0;
+}
+span.name {
+  color: #B1C7C7;
+}
+
+body{
+  font-family: 'Varela Round', sans-serif;
+  background-color: #374040;
+  color: #FCFFF5;
+  margin-left: 15%;
+  margin-right: 15%;
+  /*text-align: center;*/
+}
+a,
+a:visited{
+  color: #FCFFF5;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #1A2121;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+.footer a {
+  margin-right: 5px;
+}
+.bottom {
+  height: 70px;
+}
