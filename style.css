@@ -10,20 +10,38 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   font-family: 'Quicksand', sans-serif;
-
 }
 h1, h2{
-  color: #71B09F;
+  color: black;
 }
 .header {
   padding: 3rem 1.5rem;
   text-align: center;
+  background-color: #71B09F;
+  min-height: 600px;
 }
 .header h1 {
   padding-top: 20px;
+  font-weight: bolder;
 }
-.header span {
-  color: #B1C7C7;
+
+.header #down {
+  margin-top: 25%;
+}
+
+#content {
+  min-height: 500px;
+}
+
+#content p {
+  margin-top: 30px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #71B09F;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .footer {
@@ -38,11 +56,6 @@ h1, h2{
 }
 
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-/* Customize container */
 @media (min-width: 48em) {
   .container {
     max-width: 46rem;
