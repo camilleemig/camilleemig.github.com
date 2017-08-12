@@ -11,18 +11,19 @@ body {
   margin-bottom: 60px;
   font-family: 'Quicksand', sans-serif;
 }
-h1, h2{
-  color: black;
-}
+
 .header {
-  padding: 3rem 1.5rem;
   text-align: center;
-  background-color: #71B09F;
-  min-height: 600px;
+  background-color: #351F39;
+  min-height: 400px;
+  color: #F4E8C1;
+  display: flex;
 }
+
 .header h1 {
-  padding-top: 20px;
-  font-weight: bolder;
+  vertical-align: middle;
+  font-size: 72px;
+  padding-top: 15%;
 }
 
 .header #down {
