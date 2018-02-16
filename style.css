@@ -57,6 +57,10 @@ body {
   text-align: center;
 }
 
+.footer a {
+  color: black;
+}
+
 
 @media (min-width: 48em) {
   .container {
