@@ -6,25 +6,28 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   font-family: 'Quicksand', sans-serif;
+  background-color: #F4F4F4;
 }
 
 .header {
   text-align: center;
-  background-color: #351F39;
+  background-color: #DCD0C0;
+  color: #373737;
   min-height: 400px;
-  color: #F4E8C1;
   display: flex;
+  vertical-align: middle;
+  font-family: 'Ubuntu', sans-serif;
+
 }
 
 .header h1 {
-  vertical-align: middle;
   font-size: 72px;
-  padding-top: 15%;
-  font-family: 'Ubuntu', sans-serif;
+  padding-top: 20%;
 }
 
 .header #down {
