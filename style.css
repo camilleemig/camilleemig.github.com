@@ -10,21 +10,32 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
   font-family: 'Quicksand', sans-serif;
+  color: rgb(33, 34, 39);
 }
 
 .header {
   text-align: center;
-  background-color: #351F39;
+  background-color: rgb(33, 34, 39);
   min-height: 400px;
-  color: #F4E8C1;
+  color: rgb(110, 130,55);
   display: flex;
+  /* red: 120,15,30
+  green: 110, 130,55
+  black: 33 , 34, 39 */
+
 }
 
 .header h1 {
   vertical-align: middle;
-  font-size: 72px;
-  padding-top: 15%;
+  font-size: 4em;
+  padding-top: 17%;
   font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 15px;
+}
+
+.header p {
+  vertical-align: middle;
+  font-size: 1.25em;
 }
 
 .header #down {
